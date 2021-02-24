@@ -1,60 +1,46 @@
 import React from "react";
-import myImage from "../img/myImage.png";
 
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
-        {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
-        },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
-        },
-        {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
-        },
-        {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
-        },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
-        }
+        { id: "HTML5_skill", content: "HTML5" },
+        { id: "CSS3_skill", content: "CSS3"},
+        { id: "Javascript", content: "Javascript"},
+        { id: "React", content: "React & React Hooks"},
+        { id: "AngularJS", content: "AngularJS"},
+        { id: "JQuery", content: "JQuery"},
+        { id: "MySql", content: "MySql"},
+        { id: "Sequelize", content: "Sequelize"},
+        { id: "MongoDB & Mongoose", content: "MongoDB & Mongoose"},
+        { id: "Node.js", content: "Node.js"},
+        { id: "Sass", content: "Sass"},
+        { id: "Axios", content: "Axios"},
+        { id: "Ajax", content: "Ajax"},
+        { id: "Deployment", content: "Digital Ocean"},
+        { id: "Deployment", content: "Heroku"},
+        { id: "Git", content: "Git"},
+        { id: "Github", content: "Github"},
+        { id: "Vue", content: "Vue.js"},
+        { id: "Postgres", content: "Postgres"},
+        { id: "Authentication", content: "Passport-Authentication"}
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            " My name is Jaz. I’m from New Orleans. I started my educational career in the health sciences field then transitioned to tech in 2019. My interest consist of playing instruments, painting, drawing, sewing, & psychology. Software development piqued my interest because it serves as another medium of creating. I also enjoy the challenge of problem solving and learning new languages. I'm excited to continue learning about different technologies so I can be a great asset to a development team."
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "  I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to the success of any organization I'm apart of. "
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            " I am a full-stack engineer with experience in the Javascript language, Node.js, React.js, and a number of other technologies. I have developed many applications along with some great teams. Recently, I’ve been primarily working with React.js and Vue.js frameworks to develop a series of applications. I also have experience in UX/UI design, Schema design, and Architectural design. "
         }
       ]
     };
@@ -90,20 +76,7 @@ class About extends React.Component {
                       {this.state.skills.map(skill => {
                         return (
                           <React.Fragment key={skill.id}>
-                            <span>{skill.content}</span>{" "}
-                            <span className="pull-right">
-                              {skill.porcentage}
-                            </span>
-                            <div className="progress">
-                              <div
-                                className="progress-bar"
-                                role="progressbar"
-                                style={{ width: skill.porcentage }}
-                                aria-valuenow={skill.value}
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                              ></div>
-                            </div>
+                            <div>{skill.content}</div>{" "}
                           </React.Fragment>
                         );
                       })}

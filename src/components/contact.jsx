@@ -107,30 +107,19 @@ class Contact extends React.Component {
                           collaboration, or just say hi, I'd love to hear from
                           you.
                           <br />
-                          Simply fill the from and send me an email.
+                          Simply fill the form and send me an email.
                         </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
+                             <ul class="list-ico">
+                                {/* <li><span class="ion-ios-location"></span> address </li> */}
+                                <li><span class="ion-ios-telephone"></span> (504) 577-8922</li>
+                                <li><span class="ion-email"></span> jazminetsmith@gmail.com</li>
+                              </ul>
                       </div>
                       <div className="socials">
                         <ul>
                           <li>
                             <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href=""
+                              href="https://github.com/Jazsmith24"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,7 +130,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/jazmine-smith-43a6311b6/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
