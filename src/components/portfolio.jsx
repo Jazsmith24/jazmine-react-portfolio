@@ -7,14 +7,14 @@ import stock2 from "../img/image3.jpg";
 import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
-import horter1 from "../img/Horter/Horter_img1.jpg";
-import horter2 from "../img/Horter/Horter_img2.jpg";
-import horter3 from "../img/Horter/Horter_img3.jpg";
-import horter4 from "../img/Horter/Horter_img4.jpg";
-import horter5 from "../img/Horter/Horter_img5.jpg";
-import horter from "../img/Horter/Horter_landing.jpg";
+import horter1 from "../img/Horter/profile.jpg";
+import horter2 from "../img/Horter/Garden Settings.jpg";
+import horter3 from "../img/Horter/chatbot.jpg";
+import horter4 from "../img/Horter/garden_info.jpg";
+import horter5 from "../img/Horter/plant_search.jpg";
+import horter from "../img/Horter/horter.png";
 import settings from "../img/Horter/Garden Settings.jpg";
-import gardenView from "../img/Horter/gardens.png";
+import gardenView from "../img/Horter/Garden Settings.jpg";
 
 
 
@@ -60,7 +60,7 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={horter5}
+                  href={horter1}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
@@ -80,13 +80,13 @@ class Portfolio extends React.Component {
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                <a
+                {/* <a
                   href={horter1}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                </a>
+                </a> */}
                 <a
                   href={horter2}
                   data-lightbox="gallery-vmarine"
@@ -101,13 +101,13 @@ class Portfolio extends React.Component {
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                <a
+               {/* <a
                   href={settings}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                </a>
+                </a>  */}
               </div>
             </div>
             <div className="col-md-4">
