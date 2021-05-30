@@ -9,7 +9,7 @@ import horter5 from "../img/Horter/plant_search.jpg";
 import horter from "../img/Horter/horter.png";
 import gardenView from "../img/Horter/Garden Settings.jpg";
 import dragme from "../img/DragMePlease Logo.png";
-import dragdemo from "../img/drag_me_please/Drag_me_please_demo.mp4";
+// import dragdemo from "../img/drag_me_please/Drag_me_please_demo.mp4";
 import dmp from "../img/drag_me_please/dmp.PNG";
 import dmp1 from "../img/drag_me_please/dmp1.png";
 import dmpflip from "../img/drag_me_please/dmpflip.png";
