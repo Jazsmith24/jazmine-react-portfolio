@@ -8,6 +8,7 @@ class About extends React.Component {
         { id: "HTML5_skill", content: "HTML5" },
         { id: "CSS3_skill", content: "CSS3"},
         { id: "Javascript", content: "Javascript"},
+        { id: "Ruby", content: "Ruby"},
         { id: "React", content: "React & React Hooks"},
         { id: "AngularJS", content: "AngularJS"},
         { id: "JQuery", content: "JQuery"},

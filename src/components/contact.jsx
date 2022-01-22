@@ -109,10 +109,10 @@ class Contact extends React.Component {
                           <br />
                           Simply fill the form and send me an email.
                         </p>
-                             <ul class="list-ico">
+                             <ul className="list-ico">
                                 {/* <li><span class="ion-ios-location"></span> address </li> */}
-                                <li><span class="ion-ios-telephone"></span> (504) 577-8922</li>
-                                <li><span class="ion-email"></span> jazminetsmith@gmail.com</li>
+                                <li><span className="ion-ios-telephone"></span> (504) 577-8922</li>
+                                <li><span className="ion-email"></span> jazminetsmith@gmail.com</li>
                               </ul>
                       </div>
                       <div className="socials">

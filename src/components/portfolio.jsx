@@ -60,6 +60,7 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+                <a href="https://github.com/TheGreenThumbs/Horter">Click here to view Repo</a>
                 <a
                   href={horter1}
                   data-lightbox="gallery-vmarine"
@@ -173,6 +174,7 @@ class Portfolio extends React.Component {
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
+                <a href="https://github.com/Jazsmith24/drag_me_please">Click here to view Repo</a>
               </div>
             </div>
           </div>
